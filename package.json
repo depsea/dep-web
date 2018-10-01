@@ -1,0 +1,7 @@
+{
+    "name": "dep-web",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "honpery <honpery@gmail.com>",
+    "license": "MIT"
+}
