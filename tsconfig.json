@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "noImplicitAny": true,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "strict": true,
+        "baseUrl": "./",
+        "declaration": false,
+        "outDir": "dist",
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "paths": {
+            "*": ["src/*"]
+        },
+        "module": "commonjs",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

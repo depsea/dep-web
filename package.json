@@ -3,5 +3,41 @@
     "version": "1.0.0",
     "main": "index.js",
     "author": "honpery <honpery@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack-dev-server --config ./build/webpack.dev.conf.ts",
+        "dev:ssr": "",
+        "prod": "webpack --config ./build/webpack.prod.conf.ts"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.1.6",
+        "@types/extract-text-webpack-plugin": "next",
+        "@types/html-webpack-plugin": "^3.2.0",
+        "@types/mocha": "^5.2.5",
+        "@types/node": "^10.11.3",
+        "@types/webpack": "^4.4.13",
+        "@types/webpack-dev-server": "^3.1.1",
+        "@types/webpack-env": "^1.13.6",
+        "@types/webpack-merge": "^4.1.3",
+        "awesome-typescript-loader": "^5.2.1",
+        "chai": "^4.2.0",
+        "css-hot-loader": "^1.4.2",
+        "css-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "next",
+        "html-webpack-plugin": "^3.2.0",
+        "mocha": "^5.2.0",
+        "node-sass": "^4.9.3",
+        "npm-check-updates": "^2.14.2",
+        "progress-bar-webpack-plugin": "^1.11.0",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.0",
+        "ts-node": "^7.0.1",
+        "tslint": "^5.11.0",
+        "tslint-zzz": "^1.0.2",
+        "typescript": "^3.1.1",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.9",
+        "webpack-merge": "^4.1.4"
+    }
 }
