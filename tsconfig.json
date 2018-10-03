@@ -16,7 +16,7 @@
         "declaration": false,
         "outDir": "dist",
         "experimentalDecorators": true,
-        "jsx": "preserve",
+        "jsx": "react",
         "paths": {
             "*": ["src/*"]
         },
